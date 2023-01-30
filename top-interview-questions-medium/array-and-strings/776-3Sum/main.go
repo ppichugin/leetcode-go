@@ -52,10 +52,8 @@ func threeSum(nums []int) [][]int {
 				}
 			case sum < 0:
 				j++
-				continue
 			default:
 				k--
-				continue
 			}
 		}
 	}
